@@ -1,0 +1,20 @@
+
+book:
+  password: book123
+  groups:
+    - sh_group
+    - bj_group
+  bind_hosts:
+    - ubuntu test
+    - server1
+    - server2
+sky:
+  password: sky123
+
+rain:
+  password: rain123
+  groups:
+    - sh_group
+  bind_hosts:
+    - ubuntu test
+    - server1

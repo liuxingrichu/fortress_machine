@@ -1,0 +1,20 @@
+
+user0:
+  auth_type:  ssh-password
+  username: Tom
+  password: tom123
+
+user1:
+  auth_type:  ssh-password
+  username: Jack
+  password: jack123
+
+user2:
+  auth_type:  ssh-key
+  username: David
+  password: david123
+
+user3:
+  auth_type:  ssh-password
+  username: Lucy
+  password: lucy123

@@ -1,0 +1,13 @@
+
+bj_group:
+#  bind_hosts:
+#    - ubuntu test
+#    - server2
+#  fortress_user:
+#    - alex
+
+sh_group:
+#  fortress_user:
+#    - jack
+#    - alex
+#    - rain

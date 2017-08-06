@@ -1,0 +1,43 @@
+
+bind1:
+  hostname: ubuntu test
+  remote_users:
+    - user1:
+      username: David
+      auth_type: ssh-key
+      password: david123
+    - user2:
+      username: Jack
+      auth_type: ssh-password
+      password: jack123
+  groups:
+    - bj_group
+#  fortress_user:
+#    - alex
+#    - jack
+
+bind2:
+  hostname: server1
+  remote_users:
+    - user1:
+      username: Tom
+      auth_type: ssh-password
+      password: Tom123
+    - user2:
+      username: Lucy
+      auth_type: ssh-password
+      password: lucy123
+  groups:
+    - bj_group
+    - sh_group
+#
+#  fortress_user:
+#    - rain
+
+bind3:
+  hostname: server2
+  remote_users:
+    - user1:
+      username: Tom
+      auth_type: ssh-password
+      password: tom123
